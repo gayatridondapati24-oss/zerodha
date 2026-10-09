@@ -1,0 +1,49 @@
+p{
+    color: black;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+#btn{
+    color:white;
+    background-color: rgb(126, 126, 243);
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+}
+body{
+    color:black;
+    background-color: white;
+}
+h1{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+a{
+    text-decoration: none;
+}
+#logo{
+    height: 30px;
+    width: 125px;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#videos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
+}
